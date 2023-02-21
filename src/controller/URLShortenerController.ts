@@ -14,8 +14,6 @@ export const GetURL = async (req: Request, res: Response) => {
     URLModel.findOne(
       { shortURL: Number(shortURL) },
       (err: Error, data: URLInterface) => {
-        console.log(err)
-        console.log(data)
         if (err) {
           return res.json({
             error: 'invalid url',
