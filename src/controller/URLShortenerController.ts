@@ -21,10 +21,7 @@ export async function GetURL(req: Request, res: Response) {
         }
 
         if (data) {
-          return res.json({
-            original_url: data.originalURL,
-            short_url: data.shortURL,
-          })
+          return res.status(301).redirect(data.originalURL)
         }
 
         if (!data && !err) {
