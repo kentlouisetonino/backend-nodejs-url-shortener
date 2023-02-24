@@ -5,7 +5,7 @@ import generateRandomNumber from '../libs/generate-random-number'
 import removeTrailingSlash from '../libs/remove-trailing-slash'
 import { URLInterface, URLSchema } from '../models/URLSchema'
 
-export const GetURL = async (req: Request, res: Response) => {
+export async function GetURL(req: Request, res: Response) {
   const URLModel = mongoose.model<URLInterface>('URL', URLSchema)
   const shortURL = req.params.short_url
 
@@ -44,11 +44,11 @@ export const GetURL = async (req: Request, res: Response) => {
   }
 }
 
-export const CreateURL = async (req: Request, res: Response) => {
+export async function CreateURL(req: Request, res: Response) {
   const URLModel = mongoose.model<URLInterface>('URL', URLSchema)
   const url = req.body.url
   const trimmedURL = removeTrailingSlash(url)
-  const validatedUrl = validUrl.isUri(trimmedURL)
+  const validatedUrl = validUrl.isWebUri(trimmedURL)
   const randomNumber = generateRandomNumber()
 
   // * if URL is invalid
