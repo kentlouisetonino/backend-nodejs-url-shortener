@@ -1,6 +1,6 @@
 ## Description
 
-> A simple server-side application that allows you to process the timestamp parameter. This is my final solution of the FreeCodeCamp URL Shortener Mircoservice challenge. Feel free to clone and tinker.
+> A simple server-side application that allows you to shorten a specific URL. This is my final solution of the FreeCodeCamp URL Shortener Mircoservice challenge. Feel free to clone and tinker.
 
 > Reference:
 >
