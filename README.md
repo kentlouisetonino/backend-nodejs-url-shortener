@@ -20,9 +20,15 @@ npm run dev
 > - Testing
 
 ```bash
+* CreateURL
+Method: POST
+URL: http://localhost:13000/api/shorturl
+Body (JSON): { "short_url": "https://github.com" }
+
+* GetURL
 Method: GET
-URL: http://localhost:11000/api/:timestamp?
-Path Variables: { "timestamp": "value here" }
+URL: http://localhost:13000/api/shorturl/:short_url?
+Params: { "short_url": 1111 }
 ```
 
 <br />
