@@ -8,12 +8,6 @@
 
 <br />
 
-## Technology Stack
-
-> [REST APIs](https://restfulapi.net/) • [CORS](https://www.npmjs.com/package/cors) • [Prettier](https://www.npmjs.com/package/prettier) • [DOTENV](https://www.npmjs.com/package/dotenv) • [Morgan](https://www.npmjs.com/package/morgan) • [Nodemon](https://www.npmjs.com/package/nodemon) • [ExpressJS](https://www.npmjs.com/package/express) • [TS Node](https://www.npmjs.com/package/ts-node) • [TypeScript](https://www.npmjs.com/package/ts-node) • [NodeJS](https://nodejs.org/docs/latest-v16.x/api/)
-
-<br />
-
 ## Setup
 
 > - Run the following commands.
