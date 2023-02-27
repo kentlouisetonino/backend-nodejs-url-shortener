@@ -10,6 +10,16 @@
 
 ## Setup
 
+> - Create a new `.env` file and put the corresponding `key-value` pairs.
+
+```bash
+# * MongoDB
+MONGODB_URI=
+
+# * Local
+PORT=
+```
+
 > - Run the following commands.
 
 ```bash
@@ -34,5 +44,5 @@ Params: { "short_url": 1111 }
 <br />
 
 ## Recording
-[Screencast from Saturday, 25 February, 2023 05:45:57 AM PST.webm](https://user-images.githubusercontent.com/69438999/221299576-f93409a0-1533-44f6-83ab-4be6b97278f3.webm)
 
+[Screencast from Saturday, 25 February, 2023 05:45:57 AM PST.webm](https://user-images.githubusercontent.com/69438999/221299576-f93409a0-1533-44f6-83ab-4be6b97278f3.webm)

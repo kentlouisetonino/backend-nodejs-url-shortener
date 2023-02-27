@@ -12,7 +12,7 @@ const app = express()
 
 // * listen for requests
 app.listen(PORT, function () {
-  console.log('Your app is listening on port ' + PORT)
+  console.log('Server is live at http://localhost:' + PORT)
 })
 
 // * connect with mongodb
