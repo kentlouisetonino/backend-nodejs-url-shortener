@@ -1,6 +1,6 @@
 ## Description
 
-> - A backend application that allows you to shorten a specific URL using NodeJS.
+> - A backend application that allows shortening a specific URL using NodeJS.
 
 > - This is my final solution of the FreeCodeCamp URL Shortener Mircoservice challenge.
 
