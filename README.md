@@ -4,7 +4,7 @@
 
 > - This is my final solution of the FreeCodeCamp URL Shortener Mircoservice challenge.
 
-> Reference: https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/url-shortener-microservice
+> - Reference: https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/url-shortener-microservice
 
 <br />
 <br />
